@@ -53,16 +53,6 @@ cv.circle(blank, (blank.shape[1]//2, blank.shape[0]//3), 75, (255,0,0), -1)
 cv.imshow('Circle',blank)
 
 
-p1 = (255,55)
-p2 = (50,170) 
-p3 =(255,280)
-p4 = (450,170)
-cv.line(blank, p1,p2, (0,255,255), 2)
-cv.line(blank, p2,p3, (0,255,255), 2)
-cv.line(blank, p3,p4, (0,255,255), 2)
-cv.line(blank, p4,p1, (0,255,255), 2)
-cv.imshow('Triangle',blank)
-
 cv.destroyAllWindows()
 
 cv.putText(blank, 'Ordem e Progresso', (185,175),cv.FONT_HERSHEY_SIMPLEX, 0.45, (255,255,255), 1)
